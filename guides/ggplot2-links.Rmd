@@ -1,0 +1,47 @@
+---
+title: Guide to Using and Installing 'ggplot2'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Getting Started
+
+Download [R](https://www.r-project.org/about.html) and [RStudio](https://rstudio.com/products/rstudio/download/) for using R much better!
+
+The following steps and tutorials are implemented in RStudio.
+
+***
+
+## Installation and Usage
+
+```{r eval=FALSE}
+# The easiest way to get ggplot2 is to install the whole tidyverse:
+install.packages("tidyverse")
+
+# Alternatively, install just ggplot2:
+install.packages("ggplot2")
+
+# Or the development version from GitHub:
+# install.packages("devtools")
+devtools::install_github("tidyverse/ggplot2")
+```
+
+To use ggplot2 in your workspace, include in your code:
+
+```{r eval=FALSE}
+library(ggplot2)
+```
+
+Source [here](https://ggplot2.tidyverse.org/).
+
+***
+
+## Tutorials
+
+* [Basic Tutorial](http://r-statistics.co/ggplot2-Tutorial-With-R.html)
+* [Advanced Tutorial](http://r-statistics.co/Complete-Ggplot2-Tutorial-Part1-With-R-Code.html)
+* [Customizing Plots](http://r-statistics.co/Complete-Ggplot2-Tutorial-Part2-Customizing-Theme-With-R-Code.html)
+* [Top 50 ggplot2 Visualizations](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html)
