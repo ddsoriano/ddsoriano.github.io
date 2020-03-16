@@ -45,3 +45,5 @@ Source [here](https://ggplot2.tidyverse.org/).
 * [Advanced Tutorial](http://r-statistics.co/Complete-Ggplot2-Tutorial-Part1-With-R-Code.html)
 * [Customizing Plots](http://r-statistics.co/Complete-Ggplot2-Tutorial-Part2-Customizing-Theme-With-R-Code.html)
 * [Top 50 ggplot2 Visualizations](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html)
+
+After reading the first three tutorials, try completing [this](https://sohumdatta.github.io/pcari-sp20/handouts/Exercises2_handout1.html) exercise including the challenge to become more familiar with ggplot2. Have fun!
