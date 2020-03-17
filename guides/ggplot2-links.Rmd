@@ -1,5 +1,5 @@
 ---
-title: Guide to Using and Installing 'ggplot2'
+title: ggplot2 Reference Guide
 output: html_document
 ---
 
@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Getting Started
 
-Download [R](https://www.r-project.org/about.html) and [RStudio](https://rstudio.com/products/rstudio/download/) for using R much better!
+Download [R](https://www.r-project.org/about.html) (this one is required) and [RStudio](https://rstudio.com/products/rstudio/download/) for using R much easier!
 
 The following steps and tutorials are implemented in RStudio.
 
@@ -41,7 +41,7 @@ Source [here](https://ggplot2.tidyverse.org/).
 
 ## Tutorials and Other References
 
-* [Basic Tutorial](http://r-statistics.co/ggplot2-Tutorial-With-R.html)
+* [Basic Tutorial](http://r-statistics.co/ggplot2-Tutorial-With-R.html) -- Try out all the demos!
 * [Advanced Tutorial](http://r-statistics.co/Complete-Ggplot2-Tutorial-Part1-With-R-Code.html)
 * [Customizing Plots](http://r-statistics.co/Complete-Ggplot2-Tutorial-Part2-Customizing-Theme-With-R-Code.html)
 * [Top 50 ggplot2 Visualizations](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html)
