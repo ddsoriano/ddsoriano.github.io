@@ -1,0 +1,13 @@
+---
+title: 'My First Entry'
+date: "3/17/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+***
+
+This is my first 'diary' entry for this website. I am just trying something new! As of 1 hour and 51 minutes ago, Alameda County has announced a 'shelter-in-place' policy/order to try to lessen the spread of COVID-19. That means we're gonna be stuck here at home for a month. This'll be sort of my log. Bye!
