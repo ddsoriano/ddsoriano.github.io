@@ -366,9 +366,7 @@ summary {
 </div>
 
 
-<div id="installing-r" class="section level2">
-<h2>Installing R</h2>
-<p>The package <em>pacman</em> is very useful for installing packages instantly. However, this package is only available for R 3.4-3.6. To install R 3.6.3:</p>
+<p>The package <strong>pacman</strong> is very useful for installing packages instantly. However, this package is only available for R 3.4-3.6. To install R 3.6.3:</p>
 <pre class="r"><code>sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu xenial-cran35/'
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
 sudo apt update
@@ -379,12 +377,11 @@ sudo apt install r-base</code></pre>
 <pre class="r"><code>sudo dpkg -i &lt;name of installer&gt;</code></pre>
 <p>To install pacman:</p>
 <pre class="r"><code>install.packages(&quot;pacman&quot;)</code></pre>
-<p>Next, you need the libraries <em>ggplot2</em> and <em>rmarkdown</em>. To install these, just type in the RStduio console:</p>
+<p>Next, you need the libraries <strong>ggplot2</strong> and <strong>rmarkdown</strong>. To install these, just type in the RStduio console:</p>
 <pre class="r"><code>pacman::p_load(ggplot2, rmarkdown)</code></pre>
 <p>Other libraries that you want to install can be installed like this later. Additionally, you need to do this step to be able to export your Rmd files as PDFs:</p>
 <pre class="r"><code>tidyverse::tiny_latex()</code></pre>
-<p>If there is an error, see the R Markdown tab from RStduio to check the right command. It should be at the last part of the message. You can also try installing the <em>latexpdf</em> or <em>pdflatex</em> package.</p>
-</div>
+<p>If there is an error, see the R Markdown tab from RStudio to check the right command. It should be at the last part of the message. You can also try installing the <strong>latexpdf</strong> or <strong>pdflatex</strong> package.</p>
 
 
 

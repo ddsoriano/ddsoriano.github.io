@@ -7,9 +7,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Installing R
-
-The package *pacman* is very useful for installing packages instantly. However, this package is only available for R 3.4-3.6. To install R 3.6.3:
+The package **pacman** is very useful for installing packages instantly. However, this package is only available for R 3.4-3.6. To install R 3.6.3:
 
 ```{r eval=FALSE}
 sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu xenial-cran35/'
@@ -36,7 +34,7 @@ To install pacman:
 install.packages("pacman")
 ```
 
-Next, you need the libraries *ggplot2* and *rmarkdown*. To install these, just type in the RStduio console:
+Next, you need the libraries **ggplot2** and **rmarkdown**. To install these, just type in the RStduio console:
 
 ```{r eval=FALSE}
 pacman::p_load(ggplot2, rmarkdown)
@@ -48,4 +46,4 @@ Other libraries that you want to install can be installed like this later. Addit
 tidyverse::tiny_latex()
 ```
 
-If there is an error, see the R Markdown tab from RStduio to check the right command. It should be at the last part of the message. You can also try installing the *latexpdf* or *pdflatex* package.
+If there is an error, see the R Markdown tab from RStudio to check the right command. It should be at the last part of the message. You can also try installing the **latexpdf** or **pdflatex** package.
