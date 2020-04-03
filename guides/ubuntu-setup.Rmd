@@ -1,0 +1,51 @@
+---
+title: "Configuring Ubuntu Virtual Machine"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Installing R
+
+The package *pacman* is very useful for installing packages instantly. However, this package is only available for R 3.4-3.6. To install R 3.6.3:
+
+```{r eval=FALSE}
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu xenial-cran35/'
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+sudo apt update
+sudo apt install r-base
+```
+
+Then, download the latest version of [RStudio](https://rstudio.com/products/rstudio/download/) for your version of Ubuntu. Then install gdebi to unpack the RStudio installer:
+
+```{r eval=FALSE}
+sudo apt-get install gdebi-core
+```
+
+Go to the folder where you downloaded the installer and open the terminal from there.
+
+```{r eval=FALSE}
+sudo dpkg -i <name of installer>
+```
+
+To install pacman:
+
+```{r eval=FALSE}
+install.packages("pacman")
+```
+
+Next, you need the libraries *ggplot2* and *rmarkdown*. To install these, just type in the RStduio console:
+
+```{r eval=FALSE}
+pacman::p_load(ggplot2, rmarkdown)
+```
+
+Other libraries that you want to install can be installed like this later. Additionally, you need to do this step to be able to export your Rmd files as PDFs:
+
+```{r eval=FALSE}
+tidyverse::tiny_latex()
+```
+
+If there is an error, see the R Markdown tab from RStduio to check the right command. It should be at the last part of the message. You can also try installing the *latexpdf* or *pdflatex* package.
